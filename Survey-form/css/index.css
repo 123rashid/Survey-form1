@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding: 30px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.20);
+    display: flex;
+    column-gap: 5px;
+}
+.content-img{
+    width: 50%;
+    overflow: hidden;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-img img{
+    width: 100%;
+    
+}
+.content{
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+}
+.content form .title{
+    font-family: inter;
+    font-size: 32px;
+    width: 80%;
+    padding-bottom: 20px;
+   
+}
+.content form .field {
+    padding: 10px;
+    display: flex;
+    column-gap: 10px;
+}
+.content form .field :hover{
+    color: #111;
+    cursor: pointer;
+}
+.content form .field label{
+    font-family: inter;
+    font-weight: 600;
+    color: #444444;
+}
+.content form .field input{
+    width: 20px;
+    height: 20px;
+    border: 4px solid #D9D9D9;
+}
+.content form .in-field input{
+  width: 70%;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  border:none;
+  border-bottom: 4px solid #D9D9D9;
+  height: 40px;
+  outline: none;
+
+}
+.content form .submit{
+    text-decoration: none;
+    width: 200px;
+    padding: 8px 50px;
+    border: 4px solid #111;
+    border-radius: 4px;
+    font-family: inter;
+    font-size: 18px;
+    color: #111;
+    font-weight: bold;
+    transition: background-color 0.7s ease-in-out;
+    margin-top: 10px;
+}
+.content form .submit:hover{
+    background-color: #111;
+    color: #fff;
+}
